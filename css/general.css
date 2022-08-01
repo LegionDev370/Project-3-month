@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Futura PT";
+  src: url(../fonts/FuturaPT-Bold.ttf), url(../fonts/FuturaPT-ExtraBold.ttf), url(../fonts/FuturaPTCond-Medium.ttf), url(../fonts/FuturaPT-Light.ttf);
+}
+.nav-side__block-text-1::before {
+  content: url(../assets/house.svg);
+  padding-right: 8px;
+  margin-top: 5px;
+}
+.nav-side__block-flex-text-2::before {
+  content: url(../assets/phone.svg);
+  padding-right: 8px;
+  margin-top: 5px;
+}
+.nav-side__block-flex-text-3::before {
+  content: url(../assets/circle.svg);
+  padding-right: 8px;
+  margin-bottom: 5px;
+}
+.nav-side__block-flex-text-4::before {
+  content: url(../assets/circle.svg);
+  padding-right: 8px;
+  margin-bottom: 5px;
+}
+.nav-side__block-flex-text-5::before {
+  content: url(../assets/build.svg);
+  margin-top: 5px;
+  padding-right: 6px;
+}
+.navigation {
+  background: #ffffff;
+  border: 1px solid #f3f3f3;
+  position: relative;
+  min-height: 61px;
+}
+.navigation__img {
+  position: absolute;
+  left: 65px;
+}
+.navigation__nav-list {
+  list-style: none;
+  margin-left: 358px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+.navigation__nav-list-item > a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  text-decoration: none;
+}
+.navigation__nav-list-item-active > a::before {
+  content: url(../assets/fish.svg);
+  width: 0;
+  height: 0;
+  padding-right: 28px;
+}
+.navigation__nav-list-item-active-bar {
+  margin-left: 163px;
+}
+.navigation__nav-list-item-active-bar > a::before {
+  content: url(../assets/pet.svg);
+  width: 0;
+  height: 0;
+  padding-right: 35px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.nav-side__block-text-1, .nav-side__block-flex-text-2, .nav-side__block-flex-text-3, .nav-side__block-flex-text-4, .nav-side__block-flex-text-5, .nav-side__block-flex-text-6 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background: #f9f9f9;
+}/*# sourceMappingURL=general.css.map */
