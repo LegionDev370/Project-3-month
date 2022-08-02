@@ -34,7 +34,7 @@
         display: inline-block;
         padding: 16px 48px;
         background: #333333;
-        border-radius: 3px; 
+        border-radius: 3px;
         font-family: "Futura PT";
         font-style: normal;
         font-weight: 500;
@@ -42,6 +42,58 @@
         line-height: 21px;
         color: #ffffff;
         text-decoration: none;
+      }
+    }
+  }
+}
+.section-information {
+  &__flex {
+    position: relative;
+    max-width: 1134px;
+    margin: 124px auto;
+    &::before,
+    &::after {
+      position: absolute;
+    }
+    &::before{
+        content: url(../assets/image.png);
+        left: 0;
+        top: -35px;
+    }
+    &::after{
+        content: url(../assets/image\ \(1\).png);
+        right: 0;
+        bottom: 35px;
+    }
+    &-title {
+      position: relative;
+      padding-top: 43px;
+      padding-bottom: 43px;
+      max-width: 753px;
+      font-family: "Futura PT";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+      text-align: center;
+      color: #949494;
+      &::before,
+      &::after {
+        position: absolute;
+        content: "";
+        width: 140px;
+        height: 2px;
+        background-color: #dbdbdb;
+      }
+      &::before {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+      }
+      &::after {
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
       }
     }
   }

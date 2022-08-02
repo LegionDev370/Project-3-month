@@ -116,6 +116,55 @@
   text-decoration: none;
 }
 
+.section-information__flex {
+  position: relative;
+  max-width: 1134px;
+  margin: 124px auto;
+}
+.section-information__flex::before, .section-information__flex::after {
+  position: absolute;
+}
+.section-information__flex::before {
+  content: url(../assets/image.png);
+  left: 0;
+  top: -35px;
+}
+.section-information__flex::after {
+  content: url(../assets/image\ \(1\).png);
+  right: 0;
+  bottom: 35px;
+}
+.section-information__flex-title {
+  position: relative;
+  padding-top: 43px;
+  padding-bottom: 43px;
+  max-width: 753px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #949494;
+}
+.section-information__flex-title::before, .section-information__flex-title::after {
+  position: absolute;
+  content: "";
+  width: 140px;
+  height: 2px;
+  background-color: #dbdbdb;
+}
+.section-information__flex-title::before {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.section-information__flex-title::after {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
