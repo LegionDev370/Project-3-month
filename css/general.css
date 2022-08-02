@@ -216,6 +216,74 @@
   color: #333333;
 }
 
+.section-testing__flex {
+  min-height: 414px;
+  border-radius: 0px 5px 5px 5px;
+  background-color: #fff;
+}
+.section-testing__flex-img img {
+  border-radius: 5px;
+}
+.section-testing__flex-row-content {
+  max-width: 545px;
+}
+.section-testing__flex-row-content-h2 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+.section-testing__flex-row-content-paragraph {
+  margin-top: 18px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.section-testing__flex-row-content-links {
+  margin-top: 34px;
+}
+.section-testing__flex-row-content-links-btn-1 {
+  background: #ffbd54;
+  border-radius: 3px;
+  padding: 16px 36px 16px 35px;
+  text-decoration: none;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.section-testing__flex-row-content-links-btn-1::before {
+  content: url(../assets/money.svg);
+  vertical-align: middle;
+  padding-right: 6px;
+}
+.section-testing__flex-row-content-links-btn-2 {
+  background: #333333;
+  border-radius: 3px;
+  padding: 16px 36px 16px 35px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.section-testing__flex-row-content-links-btn-2::before {
+  content: url(../assets/typing-vg.svg);
+  vertical-align: middle;
+  padding-right: 6px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

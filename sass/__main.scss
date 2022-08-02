@@ -117,13 +117,13 @@
       &::after {
         position: absolute;
       }
-      &::before{
+      &::before {
         content: url(../assets/Vector-left.svg);
         left: 0;
         top: 50%;
         transform: translate(0 -50%);
       }
-      &::after{
+      &::after {
         content: url(../assets/Vector-right.svg);
         right: 0;
         top: 50%;
@@ -148,6 +148,77 @@
           line-height: 22px;
           text-align: center;
           color: #333333;
+        }
+      }
+    }
+  }
+}
+.section-testing {
+  &__flex {
+    min-height: 414px;
+    border-radius: 0px 5px 5px 5px;
+    background-color: #fff;
+    &-img img {
+      border-radius: 5px;
+    }
+    &-row {
+      &-content {
+        max-width: 545px;
+        &-h2 {
+          font-family: "Futura PT";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 20px;
+          display: flex;
+          align-items: center;
+          color: #333333;
+        }
+        &-paragraph {
+          margin-top: 18px;
+          font-family: "Futura PT";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #949494;
+        }
+        &-links {
+          margin-top: 34px;
+          &-btn-1 {
+            background: #ffbd54;
+            border-radius: 3px;
+            padding: 16px 36px 16px 35px;
+            text-decoration: none;
+            font-family: "Futura PT";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            color: #ffffff;
+            &::before {
+              content: url(../assets/money.svg);
+              vertical-align: middle;
+              padding-right: 6px;
+            }
+          }
+          &-btn-2 {
+            background: #333333;
+            border-radius: 3px;
+            padding: 16px 36px 16px 35px;
+            font-family: "Futura PT";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            color: #ffffff;
+            text-decoration: none;
+            &::before {
+              content: url(../assets/typing-vg.svg);
+              vertical-align: middle;
+              padding-right: 6px;
+            }
+          }
         }
       }
     }
