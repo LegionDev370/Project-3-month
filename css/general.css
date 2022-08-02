@@ -130,7 +130,7 @@
   top: -35px;
 }
 .section-information__flex::after {
-  content: url(../assets/image\ \(1\).png);
+  content: url(../assets/image-1.png);
   right: 0;
   bottom: 35px;
 }
@@ -163,6 +163,57 @@
   bottom: 0;
   left: 50%;
   transform: translate(-50%);
+}
+
+.section-jobs__flex-title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  color: #333333;
+  text-align: center;
+}
+.section-jobs__flex-card-group {
+  position: relative;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.section-jobs__flex-card-group::before, .section-jobs__flex-card-group::after {
+  position: absolute;
+}
+.section-jobs__flex-card-group::before {
+  content: url(../assets/Vector-left.svg);
+  left: 0;
+  top: 50%;
+  transform: translate(0 -50%);
+}
+.section-jobs__flex-card-group::after {
+  content: url(../assets/Vector-right.svg);
+  right: 0;
+  top: 50%;
+  transform: translate(0 -50%);
+}
+.section-jobs__flex-card-group-item {
+  width: 193px;
+  background-color: #fff;
+  min-height: 201px;
+}
+.section-jobs__flex-card-group-item-img img {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 21px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-jobs__flex-card-group-item-title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
 }
 
 .visually-hidden {
