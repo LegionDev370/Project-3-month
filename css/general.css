@@ -69,6 +69,53 @@
   padding-right: 35px;
 }
 
+.section-hero {
+  min-height: 924px;
+  background-image: url(../assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: -100px;
+}
+.section-hero__flex-content {
+  max-width: 608px;
+  margin-top: 153px;
+}
+.section-hero__flex-content-title {
+  margin-bottom: 29px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+.section-hero__flex-content-title > span {
+  color: #78c0de;
+}
+.section-hero__flex-content-subtitle {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+  margin-bottom: 38px;
+}
+.section-hero__flex-content-link {
+  display: inline-block;
+  padding: 16px 48px;
+  background: #333333;
+  border-radius: 3px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
