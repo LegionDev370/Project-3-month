@@ -224,3 +224,67 @@
     }
   }
 }
+.section-form {
+  max-height: 308px;
+  background-image: url(../assets/mask-group.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 235px;
+  &__flex {
+    position: relative;
+    &-left {
+      margin-left: 100px;
+      margin-top: 90px;
+      &-title {
+        font-family: "Futura PT";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+      }
+      &-input-data {
+        max-width: 400px;
+        & > input {
+          border: none;
+          background: #ffffff;
+          border-radius: 5px;
+          outline: none;
+          padding: 18px 147px 12px 22px;
+          &::placeholder {
+            font-family: "Futura PT";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #949494;
+          }
+        }
+        &-btn {
+          border: none;
+          padding: 15px 52px;
+          display: inline-block;
+          background: #333333;
+          border-radius: 3px;
+          font-family: "Futura PT";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 21px;
+          color: #ffffff;
+        }
+      }
+    }
+    &-right {
+      &-img {
+        position: relative;
+        top: -108px;
+        & > img{
+            object-fit: cover;
+        }
+      }
+    }
+  }
+}
