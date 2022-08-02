@@ -441,6 +441,114 @@
   padding-right: 5px;
 }
 
+.section-form-menu {
+  margin-top: 265px;
+}
+.section-form-menu__flex-left {
+  position: relative;
+}
+.section-form-menu__flex-left > img {
+  position: absolute;
+  top: 306px;
+  left: 120px;
+}
+.section-form-menu__flex-left > span img {
+  position: absolute;
+  bottom: 45px;
+  right: 8px;
+}
+.section-form-menu__flex-right {
+  background-color: #333333;
+  background-image: url(../assets/goldfish.png), url(../assets/Feedback.png), url(../assets/Question.png);
+  background-repeat: no-repeat;
+  background-position: 440px, 540px 43px, 650px 3px;
+  width: 100%;
+}
+.section-form-menu__flex-right-form {
+  max-width: 365px;
+}
+.section-form-menu__flex-right-form-block {
+  max-width: 365px;
+  margin-left: 165px;
+  margin-top: 62px;
+}
+.section-form-menu__flex-right-form-title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #ffffff;
+}
+.section-form-menu__flex-right-form-subtitle {
+  max-width: 334px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.section-form-menu__flex-right-form-input {
+  width: 100%;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 0px;
+  margin-bottom: 14px;
+  outline: none;
+  display: block;
+}
+.section-form-menu__flex-right-form-input::-moz-placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  padding-right: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #949494;
+  opacity: 0.6;
+}
+.section-form-menu__flex-right-form-input:-ms-input-placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  padding-right: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #949494;
+  opacity: 0.6;
+}
+.section-form-menu__flex-right-form-input::placeholder {
+  font-family: "Futura PT";
+  font-style: normal;
+  padding-right: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #949494;
+  opacity: 0.6;
+}
+.section-form-menu__flex-right-form-textarea {
+  display: block;
+  width: 100%;
+  min-height: 165px;
+  padding-left: 22px;
+}
+.section-form-menu__flex-right-form-btn {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 15px 50px;
+  border: none;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  background: #ffbd54;
+  border-radius: 0px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
