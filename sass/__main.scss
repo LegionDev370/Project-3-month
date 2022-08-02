@@ -281,8 +281,88 @@
       &-img {
         position: relative;
         top: -108px;
-        & > img{
-            object-fit: cover;
+        & > img {
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+.section-useful-articles {
+  margin-top: 216px;
+  &__flex {
+    &-title {
+      font-family: "Futura PT";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 20px;
+      text-align: center;
+      color: #333333;
+    }
+    &-card-group {
+      margin-top: 80px;
+      &-item {
+        &-data {
+          text-decoration: none;
+          display: inline-block;
+          margin-left: 180px;
+          font-family: "Futura PT";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 18px;
+          color: #949494;
+        }
+        &-links {
+          margin-top: 41px;
+          margin-bottom: 29px;
+          & > a {
+            text-decoration: none;
+            font-family: "Futura PT";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: #3d9cea;
+            &:nth-child(4) {
+              color: #949494;
+            }
+          }
+        }
+        &-data-active {
+          margin-left: 0;
+        }
+        &-text {
+          max-width: 182px;
+          font-family: "Futura PT";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 25px;
+          color: #000000;
+        }
+        &-paragraph {
+          font-family: "Futura PT";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #949494;
+        }
+        &-link {
+          font-family: "Futura PT";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 21px;
+          color: #333333;
+          text-decoration: none;
+          &::before {
+            content: url(../assets/pet.png);
+            vertical-align: middle;
+            padding-right: 5px;
+          }
         }
       }
     }

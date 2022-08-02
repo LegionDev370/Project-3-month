@@ -364,6 +364,83 @@
      object-fit: cover;
 }
 
+.section-useful-articles {
+  margin-top: 216px;
+}
+.section-useful-articles__flex-title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+}
+.section-useful-articles__flex-card-group {
+  margin-top: 80px;
+}
+.section-useful-articles__flex-card-group-item-data {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 180px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+.section-useful-articles__flex-card-group-item-links {
+  margin-top: 41px;
+  margin-bottom: 29px;
+}
+.section-useful-articles__flex-card-group-item-links > a {
+  text-decoration: none;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3d9cea;
+}
+.section-useful-articles__flex-card-group-item-links > a:nth-child(4) {
+  color: #949494;
+}
+.section-useful-articles__flex-card-group-item-data-active {
+  margin-left: 0;
+}
+.section-useful-articles__flex-card-group-item-text {
+  max-width: 182px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+}
+.section-useful-articles__flex-card-group-item-paragraph {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.section-useful-articles__flex-card-group-item-link {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  text-decoration: none;
+}
+.section-useful-articles__flex-card-group-item-link::before {
+  content: url(../assets/pet.png);
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
